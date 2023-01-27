@@ -1,0 +1,71 @@
+body {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+nav {
+    max-width: 100%; /* takes up the entire width of the container */
+    background-color: #d6d6d6; /* background color of the nav */
+    display: flex; /* uses flex layout to align the list items horizontally */
+    align-items: center; /* centers the list items vertically */
+    justify-content: space-around;
+  }
+  
+nav ul {
+    list-style: none; /* removes bullet points from the list items */
+    margin: 0; /* removes margin from the list */
+    padding: 0; /* removes padding from the list */
+    display: flex; /* uses flex layout to align the list items horizontally */
+}
+  
+nav li {
+    flex: 1; /* makes each list item take up an equal amount of space */
+    text-align: center; /* centers the text within the list item */
+    margin-inline: 50px;
+    font-size: 24px;
+}
+  
+nav a {
+    color: #000; /* sets the color of the text to white */
+    text-decoration: none; /* removes underlining from the links */
+    padding: 10px 0; /* adds padding to the top and bottom of the list item */
+    display: block; /* makes the entire list item clickable */
+}
+
+.page-content {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.article {
+    border: 1px solid black;
+    display: flex;
+    max-width: 100%;
+    margin: 10px;
+}
+
+.page-content a {
+    text-decoration: none;
+    color: black;
+}
+
+.image {
+    border-right: 1px solid black;
+    height: 150px;
+    width: 169px;
+}
+
+.image img {
+    height: 150px;
+}
+
+.description {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    font-size: 14px;
+}
